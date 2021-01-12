@@ -1,0 +1,95 @@
+.tittle {
+    text-align: center;
+    text-transform: 0.5;
+    text-decoration: chartreuse;
+    text-decoration: overline;
+    font-size: xx-large;
+    font-family: fantasy;
+    text-decoration: underline;
+    color: wheat;
+}
+body {
+    background-color: black;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h2 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: x-large;
+}
+.def {
+    font-style: italic;
+    color: yellowgreen;
+}
+label {
+    color: white;
+}
+#new-order {
+    text-align: center;
+
+}
+.btn:hover {
+    background-color: turquoise;
+}
+.container {
+    background-color: saddlebrown;
+}
+#delivery {
+    text-align: center;
+}
+.card-footer {
+    color: seashell;
+    text-align: center;
+
+}
+p {
+    font-weight: bolder;
+    font-size: x-large;
+}
+.card {
+    text-align: end;
+}
+.checkout {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: burlywood;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+.checkout span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.checkout span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.chekout:hover span {
+    padding-right: 25px;
+}
+  
+.chekout:hover span:after {
+    opacity: 1;
+    right: 0;
+}
