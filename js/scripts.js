@@ -80,10 +80,8 @@ $(document).ready(function() {
         "</tr>";
     
         $("#orders").append(order);
+
         
-        var total = myFunction(){
-            
-        }
 
     });
 });
